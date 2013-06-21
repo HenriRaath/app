@@ -8,7 +8,7 @@ namespace app.specs
   [Subject(typeof(FrontController))]
   public class FrontControllerSpecs
   {
-    public abstract class concern : Observes<IProcessRequests,
+    public abstract class concern : Observes<IProcessRequests, 
                                       FrontController>
     {
     }
